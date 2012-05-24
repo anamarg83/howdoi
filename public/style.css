@@ -1,0 +1,15 @@
+body {
+  background: red;
+}
+ 
+.reason_block {
+  text-align: center;
+}
+
+h1.reason_number {
+  font-size: 2em;
+}
+
+p.way {
+  font-size: 4em;
+}

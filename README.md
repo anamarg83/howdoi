@@ -6,9 +6,9 @@ I made this for my fiancee' for her birthday. Feel free to fork this repo and mo
 Use
 ---
 
-- This simple Sinatra app reads a list of reasons from a .txt file and displays them randomly when the root url is accessed. 
-- Specific reasons can be navigated to at  root/<some_number>.
-* Reasons that don't exist, or the fake 0th reason automatically redirect to the root.
+- This simple Sinatra app reads a list of reasons from a .txt file and displays them randomly when the root url is accessed 
+- Specific reasons can be navigated to at root/SOME_NUMBER
+- Reasons that don't exist, or the fake 0th reason automatically redirect to the root
 
 License
 -------

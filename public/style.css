@@ -37,4 +37,8 @@ ul.links li {
   font-size: 2em;
   line-height: 2em;
   white-space: nowrap;
+  }
+  
+@media all and (max-width: 640px) {
+  ul.links li { display: block; }
   }  

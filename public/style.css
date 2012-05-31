@@ -28,11 +28,13 @@ img.heart {
   
 footer { margin-top: 5em; }
   
-ul.links { list-style-type: none; }
+ul.links { list-style-type: none; margin: 0; padding: 0; }
   
 ul.links li {
   display: inline;
   margin-left: 1.5em;
   margin-right: 1.5em;
   font-size: 2em;
-  }
+  line-height: 2em;
+  white-space: nowrap;
+  }  

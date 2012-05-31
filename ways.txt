@@ -1,3 +1,4 @@
+Fake zeroth way so the array lines up correctly.
 She taught me how wonderful Korean food is.
 She laughs at my terrible puns.
 She supports my side projects.

@@ -8,5 +8,17 @@
     <div class="reason_block">
       <%= yield %>
 	</div>
+	<div class="links">
+	  <ul class="links">
+	    <li><a href="<%= url "/#{@way_num}" %>">Permalink</a></li>
+	    <li><a href="http://twitter.com/home?status=Reason <%= @way_num %> David loves Susan <%= url "/#{@way_num}" %>" target="_blank">Tweet this reason</a></li>
+	  </ul>
+	</div>
+	<footer>
+	  <ul class="links">
+		<li>Made for Susan Yi by <a href="http://davidpaullyons.com">David Lyons</a></li>
+		<li><a href="#" title="View source on Github">Fork this project</a> for someone you love</li>
+	  </ul>
+	</footer>
   </body>
 </html>

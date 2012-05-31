@@ -1,15 +1,40 @@
 body {
-  background: red;
-}
+  text-align: center;
+  background: white;
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  font-size: 62.5%;
+  }
  
 .reason_block {
-  text-align: center;
-}
+  margin: 0 auto;
+  width: 95%;
+  }
 
 h1.reason_number {
-  font-size: 2em;
-}
+  font-size: 3em;
+  font-variant: small-caps;
+  }
 
 p.way {
-  font-size: 4em;
-}
+  font-size: 8em;
+  }
+
+img.heart {
+  position: relative;
+  top: .25em;
+  }
+  
+footer {
+  margin-top: 5em;
+  }
+  
+ul.links {
+  list-style-type: none;
+  }
+  
+ul.links li {
+  display: inline;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  font-size: 1.5em;
+  }

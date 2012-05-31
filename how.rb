@@ -21,7 +21,7 @@ end
 get '/:reason' do
   @way = WAYS[:all][params[:reason].to_i]
   @way_num = WAYS[:all].index(@way)
-  if @way.nil?
+  if @way.nil? || @way == WAYS[:all][0]
     # TODO Error message?
     redirect '/'
   end

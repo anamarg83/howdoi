@@ -14,6 +14,9 @@ end
 get "/" do
   @way = WAYS[:all].sample
   @way_num = WAYS[:all].index(@way)
+  if @way_num == 0
+    redirect '/'
+  end
   
   erb :index
 end
@@ -21,7 +24,7 @@ end
 get '/:reason' do
   @way = WAYS[:all][params[:reason].to_i]
   @way_num = WAYS[:all].index(@way)
-  if @way.nil? || @way == WAYS[:all][0]
+  if @way.nil? || @way_num == 0
     # TODO Error message?
     redirect '/'
   end

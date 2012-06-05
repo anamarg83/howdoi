@@ -7,7 +7,11 @@
   <body>
     <div class="reason_block">
       <%= yield %>
-	  <h2><a href="./">Show me another reason</a></h2>
+	   <% if !params.empty? #TODO: Cleanup this logic %>
+	    <h2><a href="/">Show me another reason</a></h2>
+	  <% else %>
+	    <h2><a href="" onClick="location.reload();">Show me another reason</a></h2>
+	  <% end %>
 	</div>
 	<footer>
 	  <ul class="links">

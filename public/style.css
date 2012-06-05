@@ -14,12 +14,14 @@ a:hover { color: #000; }
   width: 95%;
   }
 
-h1.reason_number {
+.reason_block h1 {
   font-size: 3em;
   font-variant: small-caps;
   }
+  
+.reason_block h2 { font-size: 2em; }
 
-p.way { font-size: 8em; }
+.reason_block p { font-size: 8em; }
 
 img.heart {
   position: relative;
